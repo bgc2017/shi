@@ -8,7 +8,7 @@ AUTHOR=$(echo $i|awk -F'-' '{print $4}')
 
 for j in $i/*.txt; do
 #echo "perl -C 1.pl  $j $ID $TITLE $CHAODAI $AUTHOR"
-perl 1.pl "$j" $ID $TITLE "$CHAODAI" $AUTHOR
+perl 2.pl "$j" $ID $TITLE "$CHAODAI" $AUTHOR
 done
 
 done
